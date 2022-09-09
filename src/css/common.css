@@ -80,5 +80,51 @@ button[data-stop]:hover {
 /* ===========/styles for task 1============== */
 
 /* ========= styles for task 2 ============*/
+.field {
+  display: inline-flex;
+  flex-direction: column;
 
+  margin-right: 10px;
+}
+
+.value {
+  font-family: monospace;
+  font-size: 50px;
+}
+
+.label {
+  font-family: monospace;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#datetime-picker {
+  padding: 5px;
+  width: 220px;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+button[data-start-timer] {
+  padding: 8px 5px;
+  margin-left: 5px;
+  margin-top: -5px;
+
+  color: #fff;
+  border-radius: 5px;
+  background-color: black;
+  box-shadow: -1px -1px 7px 1px red, 1px 1px 7px 1px blue;
+  transition: 200ms;
+  vertical-align: middle;
+}
+
+button[data-start-timer]:disabled {
+  color: rgb(115, 115, 115);
+  background-color: rgb(177, 171, 171);
+  box-shadow: none;
+  /* border-color: rgb(177, 171, 171); */
+}
 /* =========/ styles for task 2 ============*/
