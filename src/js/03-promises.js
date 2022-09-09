@@ -43,7 +43,7 @@ refs.form.addEventListener('submit', e => {
         );
       })
       .catch(({ position, delay }) => {
-        Notiflix.Notify.success(
+        Notiflix.Notify.failure(
           `❌ Rejected promise ${position} in ${delay}ms`
         );
       });
